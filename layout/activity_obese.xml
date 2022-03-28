@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#93b14e"
+    tools:context=".Overweight">
+
+    <RelativeLayout
+        android:id="@+id/headerOverweight"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/cardbg">
+
+        <TextView
+            android:id="@+id/headertxt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="Obese person should limit their daily intake between 1000 - 1200kcals inorder to lose weight. Below are sample meal plans . To view food group servings per calories click the button below. "
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <android.widget.Button
+            android:id="@+id/clickHere"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="78dp"
+            android:background="@drawable/cardbg"
+            android:text="Click here"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/diets"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <RelativeLayout
+                android:id="@+id/diet1"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/cardbg">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="100dp"
+                    android:layout_height="88dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/image1"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toEndOf="@+id/image1"
+                    android:text="Breakfast"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt1"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_toEndOf="@+id/image1"
+                    android:text="2 slice Bread 160kcals \n1 cup milk 90kcals \n1 apple 60kcals" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/diet2"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/diet1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/cardbg">
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="100dp"
+                    android:layout_height="88dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/image2"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toEndOf="@+id/image2"
+                    android:text="Lunch"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toEndOf="@+id/image2"
+                    android:text="1 cup rice 160kcals\n1 chicken pieces 100kcals\n1cup cooked veges 50kcals\n1 orange 60kcals" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/diet3"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/diet2"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/cardbg">
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="100dp"
+                    android:layout_height="88dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/image3"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/txt3"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toEndOf="@+id/image3"
+                    android:text="Dinner"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toEndOf="@+id/image3"
+                    android:text="1 chapati 160kcals\n1 cup beans 150kcals\n1cup vegetable salad 50kcals\n1 pear 60kcals" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/nb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/diet3"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardbg"
+                android:padding="5dp"
+                android:text="Take meals 3 to 4 hours apart to allow for digestion"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <android.widget.Button
+                android:id="@+id/backbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nb"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/btnbg"
+                android:text="BACK"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
